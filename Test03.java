@@ -13,8 +13,6 @@ import java.util.Scanner;
  */
 public class Test03 {
     public static void main(String[] args) throws ParseException {
-
-
         Scanner console = new Scanner(System.in);
         String str = console.next();
         SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");
@@ -25,6 +23,5 @@ public class Test03 {
         long time1 = date1.getTime();
         long time2 = ((time1 + time) / 1000 / 60 / 60 / 24 / 7);
         System.out.println(time2);
-
     }
 }
